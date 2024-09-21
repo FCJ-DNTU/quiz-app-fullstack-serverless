@@ -1,0 +1,10 @@
+{
+  "resourceName": "QuizDB",
+  "tableName": "QuizDB",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

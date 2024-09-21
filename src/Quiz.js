@@ -115,8 +115,8 @@ function Quiz() {
             console.log('Submitting quiz data:', quizData);
 
             const restOperation = await post({
-                apiName: 'quizsApi',
-                path: '/',
+                apiName: 'QuizAPI',
+                path: '/items',
                 options: {
                     body: quizData,
                 }
